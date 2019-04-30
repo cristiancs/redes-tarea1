@@ -43,7 +43,7 @@ Luego de esta linea el servidor espera que la siguiente linea sea el contenido d
     cd client
     ant
 
-#Ejecución del Cliente
+# Ejecución del Cliente
 Desde la carpeta client
 
     java -jar build/jar/ftpclient.jar
