@@ -1,0 +1,14 @@
+DATETIME  EVENT   DESCRIPTION
+09-04-2019 19:45:16  connection   127.0.0.1 conexión entrante
+09-04-2019 19:45:24  connection   127.0.0.1 conexión entrante
+09-04-2019 19:45:30  connection   127.0.0.1 conexión entrante
+09-04-2019 19:45:38  command   127.0.0.1 ls
+09-04-2019 19:45:38  command   servidor envía respuesta a 127.0.0.1
+09-04-2019 19:45:39  command   127.0.0.1 ls
+09-04-2019 19:45:39  command   servidor envía respuesta a 127.0.0.1
+09-04-2019 19:45:47  command   127.0.0.1 ls
+09-04-2019 19:45:47  command   servidor envía respuesta a 127.0.0.1
+09-04-2019 19:45:55  command   127.0.0.1 ls
+09-04-2019 19:45:55  command   servidor envía respuesta a 127.0.0.1
+09-04-2019 19:45:55  command   127.0.0.1 ls
+09-04-2019 19:45:55  command   servidor envía respuesta a 127.0.0.1
