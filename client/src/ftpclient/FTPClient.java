@@ -15,9 +15,9 @@ class FTPClient {
         return new String(encoded);
     }
 
-    private String DecodeBase64ToString(String Text) {
+    private byte[] DecodeBase64ToString(String Text) {
         byte[] decoded = Base64.getDecoder().decode(Text);
-        return new String(decoded);
+        return decoded;
     }
 
     public static void main(String argv[]) throws Exception {
@@ -67,9 +67,10 @@ class FTPClient {
                         System.out.println("El archivo no existe en el servidor remoto");
                     } else {
                         String parts[] = inConsole.split(" ");
+
                         File file = new File("files/" + parts[1]);
                         file.createNewFile();
-                        FileWriter fr = new FileWriter(file, true);
+                        OutputStream fr = new FileOutputStream(file);
                         fr.write(DecodeBase64ToString(inText));
                         fr.close();
                         inText = inFromServer.nextLine();
